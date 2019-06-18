@@ -1,0 +1,14 @@
+/*
+Add to change color
+:root {
+  --mv-primary-color: #488aff;
+}
+*/
+
+.mv-label h3 {
+  color: red;
+}
+
+h1 {
+  color: var(--mv-primary-color, green);
+}
